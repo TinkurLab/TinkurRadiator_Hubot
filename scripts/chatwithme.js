@@ -16,18 +16,15 @@ module.exports = function (robot) {
 
     var switchBoard = new Conversation(robot);
 
-    robot.respond(/clean the house/, function (msg) {
+    robot.respond(/there is an outage/, function (msg) {
         var dialog = switchBoard.startDialog(msg);
 
-        msg.reply('Sure, where should I start? Kitchen or Bathroom');
-        dialog.addChoice(/kitchen/i, function (msg2) {
-            msg2.reply('On it boss!');
+        msg.reply('Oh no!  Should I notify everyone? (yes|no)');
+        dialog.addChoice(/yes/i, function (msg2) {
+            msg2.reply('Ok, I told them what\'s up!');
         });
-        dialog.addChoice(/bathroom/i, function (msg2) {
-            msg.reply('Do I really have to?');
-            dialog.addChoice(/yes/, function (msg3) {
-                msg3.reply('Fine, Mom!');
-            })
+        dialog.addChoice(/no/i, function (msg2) {
+            msg.reply('Whew!  You scared me...');
         });
     });
 
