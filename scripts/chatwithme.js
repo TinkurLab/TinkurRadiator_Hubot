@@ -21,7 +21,14 @@ module.exports = function (robot) {
 
         msg.reply('Oh no!  Should I notify everyone? (yes|no)');
         dialog.addChoice(/yes/i, function (msg2) {
-            msg2.reply('Ok, I told them what\'s up!');
+            msg2.reply('Ok, I told them what\'s up!  Should I sound the alarm? (yes|no)');
+            dialog.addChoice(/yes/, function (msg3) {
+                msg3.reply('Alarm activated!');
+            });
+            dialog.addChoice(/no/, function (msg3) {
+                msg3.reply('Ok, but I think it was a good idea.');
+            })
+
         });
         dialog.addChoice(/no/i, function (msg2) {
             msg.reply('Whew!  You scared me...');
