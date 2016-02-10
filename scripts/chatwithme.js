@@ -1,3 +1,15 @@
+// Description:
+//  Hubot script to have a conversation
+// 
+// Commands:
+//   tinkurbot clean the house - chat about cleaning the house
+//   tinkurbot jump - chat about jumping
+//
+// Author:
+//   Created by Tinkurlab www.tinkurlab.com
+//   based on examples at hubot-conversation
+//
+
 var Conversation = require('hubot-conversation');
 
 module.exports = function (robot) {

@@ -1,7 +1,9 @@
 # Description:
 #   Hubot script to listen for "p1" in chats and notify API used by Raspberry Pi to radiate information
+#
 # Commands:
 #   tinkurbot p1 - turn on the P1 Fire Alarm
+#
 # Author:
 #   Created by Tinkurlab www.tinkurlab.com
 #   https://github.com/TinkurLab/P1InfoRadiator
