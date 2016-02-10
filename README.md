@@ -6,12 +6,12 @@ TinkurRadiator provides real world information (blinky lights, sounds, etc) when
 
 ## Components
 
-* Hubot Scripts
+* [Hubot Scripts](https://github.com/TinkurLab/TinkurRadiator_Hubot)
   * Listens for chat room messages and interacts with the user conversationally using hubot-conversation package
-* Node Service
+* [Node Service](https://github.com/TinkurLab/TinkurRadiator_NodeService)
   * Recieves updates from Hubot, logging logs when events are reported 
   * Provides status to Checker Checker componet for event that were reported 
-* Raspberry Pi Checker and Radiator
+* [Raspberry Pi Checker and Radiator](https://github.com/TinkurLab/TinkurRadiator_Checker)
   * Polls Node Service compoent to check is there was a recent event reported
   * Toggles information radiators on and off (ex. blinky lights, sounds, etc)
 
