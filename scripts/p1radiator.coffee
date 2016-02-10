@@ -3,7 +3,7 @@
 #
 # Commands:
 #   tinkurbot p1 - turn on the P1 Fire Alarm
-#
+#	
 # Author:
 #   Created by Tinkurlab www.tinkurlab.com
 #   https://github.com/TinkurLab/P1InfoRadiator
