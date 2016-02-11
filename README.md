@@ -33,5 +33,6 @@ TODO
 * [Python Request library guide](http://docs.python-requests.org/en/latest/user/quickstart/#response-content)
 * [Python Language Ref](http://www.tutorialspoint.com/python/index.htm)
 * [Node.js Language Ref](http://www.tutorialspoint.com/nodejs/index.htm)
+* [Coffee Script Lint](http://www.coffeelint.org/)
 
 
