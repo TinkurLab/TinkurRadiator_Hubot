@@ -21,7 +21,7 @@ TODO
 
 ## Backlog and Board
 
-[Waffle Board](https://waffle.io/TinkurLab/P1InfoRadiator)
+[Waffle Board](https://waffle.io/TinkurLab/TinkurRadiator_Checker)
 
 ## Resources
 
