@@ -34,5 +34,7 @@ TODO
 * [Python Language Ref](http://www.tutorialspoint.com/python/index.htm)
 * [Node.js Language Ref](http://www.tutorialspoint.com/nodejs/index.htm)
 * [Coffee Script Lint](http://www.coffeelint.org/)
+* [eBook: Automation and Monitoring with Hubot](https://leanpub.com/automation-and-monitoring-with-hubot/read#leanpub-auto-cross-script-communication-with-events)
+* [Regular Expression Validator / Builder](http://rubular.com/)
 
 
